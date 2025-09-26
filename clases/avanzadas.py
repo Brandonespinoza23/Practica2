@@ -5,9 +5,12 @@ class Avanzadas:
         self.base = 0
         self.exponente = 0
 
+    def elevarPotencia(self):
+        return math.pow(self.base, self.exponente)
+    
+    def raizCuadrada(self):
+        return math.sqrt(self.num1)
+
     def leerNumeros(self):
         self.base = float(input("Ingresa la base: "))
         self.exponente = float(input("Ingresa el exponente: "))
-
-    def elevarPotencia(self):
-        return math.pow(self.base, self.exponente)
